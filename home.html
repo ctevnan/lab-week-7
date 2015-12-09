@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock paper scissors</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+ <div class="container">
+ <div class="row">
+  <div class="col-md-6">
+   <button class="btn btn-block" id="changeWordBtn">Change that word!</button>
+   </div>
+   <div class="col-md-6">
+   <h1></h1>
+   </div>
+   </div>
+   <div class="row">
+    <div class=="col-md-4">
+    <strong>User Score: </strong><span id="userScore">0</span>
+    <br/>
+    <button class="btn btn-info btn-block" data-tag="userScore"> Increment User Score </button>
+    </div>
+    <div class="col-md-4">
+    <strong>User Score: </strong><span id="userScore">0</span>
+    <br />
+    <button class="btn btn-info btn-block" data-tag="userScore">Increment User Score</button>
+    </div>
+    <div class="col-md-4">
+    <strong>Computer Score: </strong><span id="computerScore">0</span>
+    <br/>
+    <button class="btn btn-info btn-block" data-tag="computerScore">Increment Computer Score</button>
+    </div>
+    <div class="col-md-4">
+    <strong>Round Count: </strong><span id="RoundCount">1</span>
+    <br/>
+    <button class="btn btn-info btn-block" data-tag="roundCount"> Increment Rount Count </button>
+    </div>
+   </div>
+   <div class="row">
+   <div class="col-md-7">
+   <h2>The hello, goodbye game</h2>
+   <ul>
+    <li>The button randomly shows a phrase</li>
+    <li>You have one option</li>
+    <li>If the greeting is mutual, no one wins</li>
+    <li>If you say <em>Hello</em> and they say <em>Goodbye</em>, you get a point</li>
+    <li>If you say <em>Goodbye</em> and they say <em>Hello</em>, computer gets a point</li>
+    </ul>
+    </div>
+    <div class= "col-md-3">
+    <button class="btn btn-primary"></button>
+    </div>
+    </div>
+    </div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Game Alert</h4>
+        </div>
+        <div class="modal-body"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/randomString.js"></script>
+  <script type="text/javascript" src="js/scoreTracker.js"></script>
+  <script type="text/javascript" src="js/helloGoodbye.js"></script>
+</body>
+</html>
