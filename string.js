@@ -1,4 +1,4 @@
-$(document).ready(function)(){
+$(document).ready(function(){
   var myWords = ["Rock", "Paper", "Scissors"];
 
   $("#changeWordBtn").on("click", function() {

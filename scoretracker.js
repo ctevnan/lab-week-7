@@ -1,4 +1,4 @@
-windows.helloGoodbye = {
+window.helloGoodbye = {
   gameState: {
     userScore: 0,
     computerScore: 0,

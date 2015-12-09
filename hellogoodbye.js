@@ -26,7 +26,7 @@ $(document).ready(function() {
     helloGoodbye.gameState.roundCount++;
 
     $("span").each(function() {
-      $(this).html(helloGoodbye.gameState[$(this.attr("id")]);
+      $('this').html(helloGoodbye.gameState[$('this').attr("id")]);
     });
 
       randomButton();
